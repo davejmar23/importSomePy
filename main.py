@@ -3,7 +3,6 @@ import joke
 import advice
 
 def main():
-    """Main function to display a random joke or piece of advice."""
     print("Welcome! Do you want to hear a joke or get some advice?")
     choice = input("Type 'joke' for a joke or 'advice' for advice: ").strip().lower()
     
